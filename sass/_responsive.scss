@@ -1,0 +1,346 @@
+@media (min-width: 1400px) {
+  .owl-carousel.owl-drag .owl-item {
+    //width: 340px !important;
+  }
+  .features-carousel {
+    height: 706px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+  .header {
+    background-image: url("../img/stadium-foot.jpg");
+  }
+  #parallax {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 1399px) {
+  .main__title-block {
+    max-width: 80%;
+  }
+  .features-carousel {
+    height: 640px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .header {
+    background-position: bottom center;
+    &__button-block {
+      -webkit-box-flex: unset;
+      -ms-flex-positive: unset;
+      flex-grow: unset;
+    }
+  }
+  .navigation {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    &__title {
+      margin-right: 0;
+    }
+  }
+  .main {
+    &__title-block {
+      height: 68px;
+      padding: 20px 60px;
+    }
+  }
+  .features {
+    -ms-flex-preferred-size: 170px;
+    flex-basis: 170px;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    &__item {
+      margin-bottom: 8px;
+    }
+    &__link {
+      font-size: 18px;
+      &:not(:last-child) {
+        margin-bottom: 4px;
+      }
+      &:before {
+        height: 12px;
+        margin-right: 12px;
+        width: 12px;
+      }
+    }
+  }
+  .experience {
+    margin-right: 0;
+    margin-bottom: 24px;
+    &__info {
+      font-size: 18px;
+      line-height: 28px;
+    }
+    &__img-block {
+      height: auto;
+      width: 320px;
+    }
+    &__img {
+      margin-top: 0;
+    }
+  }
+  .footer {
+    &__rights-block {
+      -webkit-box-flex: unset;
+      -ms-flex-positive: unset;
+      flex-grow: unset;
+    }
+  }
+  .up-button {
+    right: 30px;
+  }
+
+  .features-carousel {
+    height: 580px;
+
+    &__item_inner {
+      -webkit-transform: skewX(-166.6deg) translateX(-65px);
+      transform: skewX(-166.6deg) translateX(-65px);
+      width: calc(100% + 130px);
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .about {
+    padding-top: 120px;
+    padding-bottom: 140px;
+
+    &__info {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+
+  .features {
+    &__item {
+      margin-bottom: 2px;
+    }
+  }
+
+  .features-carousel {
+    height: 460px;
+
+    &__item_inner {
+      -webkit-transform: skewX(-166.6deg) translateX(-50px);
+      transform: skewX(-166.6deg) translateX(-50px);
+      width: calc(100% + 100px);
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .button {
+    height: 34px;
+    min-width: 130px;
+  }
+  .navigation {
+    &__item:not(:last-child) {
+      margin-right: 0;
+    }
+    &__title {
+      line-height: 1;
+    }
+    &__logo {
+      width: 60px;
+    }
+    &__list {
+      margin-top: 0 !important;
+    }
+  }
+  .header {
+    background-position: bottom center;
+    &__subtitle {
+      font-size: 20px;
+    }
+    &__title {
+      font-size: 48px;
+    }
+    &__info {
+      font-size: 28px;
+    }
+    .navigation {
+      &__list {
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        margin-top: 24px;
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+        text-align: center;
+      }
+    }
+  }
+  .main {
+    &__section {
+      padding-top: 60px;
+    }
+    &__title-block {
+      height: 52px;
+      padding: 16px 30px;
+    }
+    &__title {
+      font-size: 24px;
+    }
+  }
+  .about {
+    padding-top: 60px;
+    padding-bottom: 70px;
+
+    &__info {
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 18px;
+    }
+  }
+  .experience {
+    &__block {
+      padding-top: 60px;
+      padding-bottom: 30px;
+    }
+    &__info {
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 18px;
+      width: unset;
+    }
+    &__img-block {
+      text-align: center;
+    }
+    &__img {
+      max-width: 80%;
+    }
+  }
+  .available-block {
+    &__title {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+    &__link:not(:last-child) {
+      margin-bottom: 8px;
+    }
+  }
+  .features {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    &__desc-block {
+      width: 100%;
+    }
+  }
+  .footer {
+    &__rights-block {
+      margin-top: 24px;
+    }
+  }
+
+  .features-carousel {
+    height: 420px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .experience {
+    &__title-block {
+      height: 80px;
+    }
+    &__title {
+      font-size: 22px;
+      line-height: 1.1;
+    }
+    &__img-block {
+      width: 240px;
+    }
+  }
+  .header {
+    &__section {
+      padding-top: 50px;
+    }
+    &__subtitle {
+      font-size: 18px;
+    }
+    &__title {
+      font-size: 42px;
+    }
+    &__info {
+      font-size: 24px;
+    }
+  }
+  .available-block__link:not(:last-child) {
+    margin-right: 24px;
+  }
+  .features {
+    -ms-flex-preferred-size: 150px;
+    flex-basis: 150px;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    &__link {
+      font-size: 16px;
+      &:not(:last-child) {
+        margin-bottom: 4px;
+      }
+      &:before {
+        height: 10px;
+        margin-right: 8px;
+        width: 10px;
+      }
+    }
+  }
+  .up-button {
+    right: 16px;
+    width: 40px;
+    height: 40px;
+
+    &__img {
+      height: 20px;
+      width: 20px;
+    }
+  }
+
+  .features-carousel {
+    height: 360px;
+
+    &__item_inner {
+      -webkit-transform: skewX(-166.6deg) translateX(-40px);
+      transform: skewX(-166.6deg) translateX(-40px);
+      width: calc(100% + 80px);
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .footer {
+    .navigation {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      text-align: center;
+      &__title,
+      &__list {
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+      }
+      &__list {
+        margin-top: 12px;
+      }
+      &__logo {
+        width: unset;
+      }
+    }
+
+    &__rights-block {
+      text-align: center;
+    }
+  }
+}
